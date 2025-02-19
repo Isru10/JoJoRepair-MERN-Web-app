@@ -48,7 +48,7 @@ const Login = () => {
             } else {
                 setErrMsg(err.data?.message);//optional chaining
             }
-            errRef.current.focus();
+            // errRef.current.focus();
         }
     }
 
